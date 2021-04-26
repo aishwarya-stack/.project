@@ -1,0 +1,23 @@
+let challange='30 daysc of javascript'
+console.log(challange)
+console.log(challange.length)
+console.log(challange.toUpperCase())
+console.log(challange.toLowerCase())
+console.log(challange.substr(0,2))
+console.log(challange.substring(0,1))
+console.log(challange.includes('script'))
+console.log(challange.split())
+console.log(challange.split(''))
+console.log(challange.replace('javascript','python'))
+console.log(challange.charAt(15))
+console.log(challange.charCodeAt(15))
+console.log(challange.indexOf('a'))
+console.log(challange.lastIndexOf('a'))
+let sentence ='you cannot end sentence with because beacuse beacuse is a conjunction'
+console.log(sentence.indexOf('beacuse'))
+console.log(sentence.search('beacuse'))
+console.log(challange.startsWith(30))
+console.log(challange.endsWith('javascript'))
+console.log(challange.match('a'))
+let firstsentence='days of'
+console.log(firstsentence.concat('javascript'))
